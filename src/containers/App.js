@@ -46,7 +46,7 @@ handleColorCheck = pos => {
 
   render() {
   const { data, loading, filter, showMore, expand, color, isChecked, colorChecked } = this.state;
-
+  
     if(loading) {
      return <h4>Loading...</h4>
     }
